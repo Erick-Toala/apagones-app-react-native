@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "apagones-app-react-native",
+    "name": "InfoCortes",
     "slug": "apagones-app-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ico-infocortes.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ico-infocortes.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ericktoala56.apagonesappreactnative"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/ico-infocortes.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c9826286-82a2-4dcf-8ead-bec8fed1874e"
+      }
     }
   }
 }
