@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ericktoala56.apagonesappreactnative"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,5 +30,8 @@
         "projectId": "c9826286-82a2-4dcf-8ead-bec8fed1874e"
       }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-1892277589295572~8815514852"
   }
 }
